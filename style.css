@@ -1,0 +1,471 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .first {
+    position: sticky;
+    top: 0rem;
+    height: 8.5rem;
+    border: 0.125rem solid whitesmoke;
+    z-index: 2;
+    background-color: #000;
+}
+.logo {
+  position: absolute;
+  left: 7.5rem;
+  top: 1.5rem;
+}
+.logo img {
+  width: 13vw;
+}
+.second {
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://netcomafrica.com/wp-content/uploads/2023/11/netcom4.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% -25px;
+}
+.third {
+  position: absolute;
+  background-color: rgba(27, 27, 27, 0.3);
+    width: 100vw;
+    height: 100vh;
+}
+  .nav-bar {
+    position: absolute;
+    right: 4.5rem;
+    display: block;
+    top: 3.6rem;
+  }
+  .nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+.nav-bar li {
+  float: left;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+}
+.nav-bar li a {
+  color: #ABB9DB;
+  text-decoration: none;
+}
+.nav-bar li a:hover {
+  font-size: 1.75rem;
+  text-decoration: underline 0.125rem #ABB9DB;
+  color: black;
+}
+.fourth {
+  position: relative;
+  width: 100vw;
+  height: 10vh;
+  background-color: #e5e7ec;
+      
+}
+.fifth {
+  position: absolute;
+}
+.fifth p { 
+  margin-left: 35rem;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+.sixth {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  top: 4rem;
+}
+.seventh {
+  position: absolute;
+  border: 0.125rem solid #ABB9DB;
+  width: 25.2vw;
+  left: 12rem;
+  border-radius: 3rem;
+  height: 60vh;
+}
+.eighth {
+  position: absolute;
+}
+.eighth img {
+  width: 22vw;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  height: 30vh;
+}
+.ninth {
+  position: absolute;
+  top: 22rem;
+  padding-left: 1.5rem;
+  color: #444343;
+  font-size: 1.3rem;
+  line-height: 1.7;
+  text-align: left;
+}
+.ninth a {
+  text-decoration: none;
+  border-radius: 1rem;
+  width: 3rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  color: white;
+  background-color: #192742;
+}
+.ninth a :hover {
+  background-color: #ABB9DB;
+  color: white;
+}
+.eleventh {
+  position: absolute;
+  border: 0.125rem solid #ABB9DB;
+  width: 25.2vw;
+  left: 50rem;
+  border-radius: 3rem;
+  height: 60vh;
+}
+.twelveth {
+  position: absolute;
+}
+.twelveth img {
+  width: 22vw;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 30vh;
+}
+.thirteen {
+  position: absolute;
+  padding-left: 1rem;
+  color: #444343;
+  font-size: 1.3rem;
+  top: 22rem;
+  line-height: 1.7;
+  text-align: left;
+}
+.thirteen a {
+  text-decoration: none;
+  border-radius: 1rem;
+  border: none;
+  width: 3rem;
+  padding: 1rem 1.5rem;
+  color: white;
+  background-color: #192742;
+}
+.thirteen a :hover {
+  background-color: #ABB9DB;
+  color: white;
+}
+.fifteen {
+  position: absolute;
+  border: 0.125rem solid #ABB9DB;
+  width: 25.2vw;
+  left: 88rem;
+  border-radius: 3rem;
+  height: 60vh;
+}
+.sixteen {
+  position: absolute;
+}
+.sixteen img {
+  width: 22vw;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 30vh;
+}
+.seventeen {
+  position: absolute;
+  top: 22rem;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  color: #444343;
+  line-height: 1.7;
+  text-align: left;
+}
+.seventeen a {
+  text-decoration: none;
+  border-radius: 1rem;
+  width: 3rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  color: white;
+  background-color: #192742;
+}
+.seventeen a :hover {
+  background-color: #ABB9DB;
+  color: white;
+}
+.eighteen {
+  position: absolute;
+  border: 0.125rem solid #ABB9DB;
+  width: 25.2vw;
+  top: 45rem;
+  left: 12rem;
+  border-radius: 3rem;
+  height: 60vh;
+}
+.nineteen {
+  position: absolute;
+}
+.nineteen img {
+  width: 22vw;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 30vh;
+}
+.twenty {
+  position: absolute;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  top: 22rem;
+  color: #444343;
+  line-height: 1.7;
+  text-align: left;
+}
+.twenty a {
+  text-decoration: none;
+  border-radius: 1rem;
+  width: 3rem;
+  border: none;
+  padding: 1re 1.5rem;
+  color: white;
+  background-color: #192742;
+}
+.twenty a :hover {
+  background-color: #ABB9DB;
+  color: white;
+}
+.twenty-two {
+  position: absolute;
+  border: 0.125rem solid #ABB9DB;
+  width: 25.2vw;
+  top: 45rem;
+  left: 50rem;
+  border-radius: 3rem;
+  height: 60vh;
+}
+.twenty-three {
+  position: absolute;
+}
+.twenty-three img {
+  width: 22vw;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 30vh;
+}
+.twenty-four {
+  position: absolute;
+  top: 22rem;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  color: #444343;
+  line-height: 1.7;
+  text-align: left;
+}
+.twenty-four a {
+  text-decoration: none;
+  width: 3rem;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  color: white;
+  background-color: #192742;
+}
+.twenty-four a :hover {
+  background-color: #ABB9DB;
+  color: white;
+}
+.queen {
+  position: relative;
+  background-size: cover;
+  top: 50rem;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://netcomafrica.com/wp-content/uploads/2023/11/partnership-opt-min.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% -25px;
+}
+.queen-1 {
+  position: absolute;
+  font-size: 1.5rem;
+  background-color: rgba(27, 27, 27, 0.53);
+  width: 100vw;
+  height: 100vh;
+}
+.queen-2 {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: 20rem;
+  margin-top: 20rem;
+}
+#vol {
+  position: absolute;
+  color: #192742;
+  transform: scale(3);
+  transform-origin: 0 0;
+}
+.queen-3 {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: 20rem;
+  margin-top: 25rem;
+}
+.queen-4 {
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: 30rem;
+}
+.queen-5 {
+  position: relative;
+  top: 70rem;
+  width: 100vw;
+  height: 100vh;
+}
+.queen-5 h1 {
+  text-align: center;
+}
+.queen-5 img {
+  width: 12vw;
+  margin-left: 20rem;
+}
+.queen-7 {
+  position: absolute;
+  left: 30rem;
+  top: 6rem;
+}
+.queen-8 {
+  position: absolute;
+  left: 60rem;
+  top: 8rem;
+}
+.queen-8 img {
+  width: 7.5vw;
+}
+.queen-9 {
+  position: absolute;
+  left: 85rem;
+  top: 5rem;
+}
+.queen-11 {
+  position: absolute;
+  left: 30rem;
+  top: 37rem;
+}
+.queen-12 {
+  position: absolute;
+  left: 60rem;
+  top: 37rem;
+}
+.queen-13 {
+  position: absolute;
+  left: 85rem;
+  top: 37rem;
+}
+.queen-14 {
+  position: relative;
+  background-color: rgba(27, 27, 27, 9);
+  width: 98vw;
+  height: 50vh;
+  top: 70rem;
+}
+.log-1 {
+  position: absolute;
+  left: 10rem;
+  top: 10rem;
+}
+.log-1 img {
+  width: 22rem;
+}
+.queen-15 {
+  position: absolute;
+  text-align: left;
+  display: block;
+  top: 7rem;
+  color: white;
+  line-height: 2;
+  font-size: 1.5rem;
+  left: 40rem;
+}
+.queen-15 a {
+  text-decoration: none;
+  color: rgb(230, 47, 47);
+}
+.queen-15 a:hover {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+.queen-16 {
+  position: absolute;
+  left: 75rem;
+  top: 7rem;
+  color: white;
+  line-height: 1.7;
+  font-size: 1.5rem;
+  display: block;
+  text-align: left;
+}
+.queen-16 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+  .queen-16 li {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .queen-16 li a {
+    color: white;
+    text-decoration: none;
+  }
+.queen-16 li a:hover {
+font-size: 1.75rem;
+text-decoration: underline 0.125rem #ABB9DB;
+color: black;
+}
+.queen-17 {
+  position: absolute;
+  display: block;
+  left: 95rem;
+  font-size: 1.5rem;
+  color: white;
+  top: 7rem;
+}
+.queen-17 a {
+  text-decoration: none;
+  color: white;
+}
+.queen-17 h4 {
+  position: absolute;
+  text-align: center;
+  border-bottom: 0.0625rem solid white;
+  color: white;
+  text-align: left;
+  width: 100% !important;
+  padding: 0.5rem;
+  height: auto;
+  line-height: 1;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  font-weight: 600; 
+}
+.queen-18 {
+  position: absolute;
+  text-align: center;
+  top: 30rem;
+  left: 50rem;
+  font-size: 1.5rem;
+}
+.queen-18 a {
+  text-decoration: none;
+  color: white;
+}
